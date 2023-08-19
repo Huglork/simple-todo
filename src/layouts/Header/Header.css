@@ -1,0 +1,30 @@
+.header {
+    height: 4.5rem;
+    padding: 10px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header__left {
+    display: flex;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.nav__list li {
+    list-style: none;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.nav__list li:first-child {
+    margin-left: 0;
+}

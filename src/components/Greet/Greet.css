@@ -1,0 +1,31 @@
+.greetCard {
+  width: 570px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.greetCard p {
+  color: #a5c926;
+  font-size: 0.75rem;
+  line-height: 16px;
+}
+
+.greetCard h2 {
+  font-size: 2.5rem;
+  line-height: 48px;
+  text-align: center;
+}
+
+.greetCard button {
+  background-color: #a5c926;
+  color: #fff;
+  border-radius: 1.5rem;
+  padding: 15px 30px;
+  outline: none;
+  border: none;
+}

@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+// import Footer from './layouts/Footer/Footer';
+// import Header from './layouts/Header/Header';
+// import Hero from './layouts/Hero/Hero';
+// import ToyTypes from './components/ToyTypes/ToyTypes';
+// import StuffedAnimals from './components/StuffedAnimals/StuffedAnimals';
+// import ToyTypes from './components/ToyTypes/ToyTypes';
+import Timer from './components/PracticeCrud/PracticeCrud';
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <div className='app'>
+    {/* <Header/>
+    <Hero/>
+    <ToyTypes/>
+    <StuffedAnimals/>
+    <Footer/> */}
+    <Timer/>
+  </div>
 }
 
 export default App;
